@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Baloo 2", cursive, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f7f9fc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  * {
+    box-sizing: border-box;
+  }
+}
+
+$primary: #5484d8;
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  &__box {
+    background: white;
+    width: 450px;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.08);
+    border-top: 3px solid $primary;
+  }
+  hr {
+    border: none;
+    height: 1px;
+    background: #dedede;
+    margin: 30px -30px;
+  }
+}
+
+.form-control {
+  margin-bottom: 20px;
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  input[type="number"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: 1px solid #d2dbe4;
+    font-size: 1rem;
+  }
+
+  &__error {
+    color: red;
+    font-size: 0.9rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  background: $primary;
+  border: none;
+  border-radius: 3px;
+  display: inline-block;
+  min-width: 200px;
+  padding: 16px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1.1px;
+  color: darken($color: $primary, $amount: 50);
+  font-weight: bold;
+
+  &:disabled {
+    opacity: 0.6;
+  }
+}
+
+.success-icon {
+  width: 60px;
+  background: #21d65d;
+  border-radius: 90px;
+}
+.error-icon {
+  width: 60px;
+  background: #de104e;
+  border-radius: 90px;
+  border: 6px solid #de104e;
+}
+
+
+.table {
+  width: 100%;
+  tr > td {
+    &:first-child {
+      text-align: right;
+      padding-right: 10px;
+    }
+    &:last-child {
+      text-align: left;
+      padding-left: 10px;
+    }
+  }
+}
