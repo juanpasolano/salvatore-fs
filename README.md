@@ -1,6 +1,7 @@
 
 ### Una manera sencilla de recibir pagos online con Mercadopago
-Este repositorio
+Este repositorio le permite a diferentes negocios recibir pagos de manera facil y segura
+
 
 [![Deply to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/juanpasolano/mercadopago-payme)
 

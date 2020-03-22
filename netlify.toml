@@ -4,5 +4,5 @@ publish = "./build"
 functions = "./functions"
 
 [template.environment]
-MERCADO_TOKEN = "Access Token de mercadolibre"
+MERCADO_TOKEN = "Access Token de MercadoPago"
 REACT_APP_NAME = "El nombre de tu negocio"
