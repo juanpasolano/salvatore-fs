@@ -1,26 +1,26 @@
 
-## Monta un sitio web rapido para recibir pagos
+## Crea un link de pagos para tu negocio
 Este repositorio le permite a diferentes negocios recibir pagos de manera facil y segura.
 
 ### Por que esto y no el Boton de Pago
-La gran diferencia de este proyecto y el boton de pago es que El boto de pago no te permite generar links al instante con diferentes montos. Digamos que en tu tienda necesitas cobrarle a cada persona un total dependiendo de lo que te pida. Con el boton de PAgo necesitarias ir a MercadoPago y generar un nuevo boton de compra por cada transaccion, un proceso muy dispendioso. 
+La gran diferencia de este proyecto y el boton de pago es que el boton de pago no te permite generar links al instante con diferentes montos. Digamos que en tu tienda necesitas cobrarle a cada persona un total dependiendo de lo que te pida. Con el boton de PAgo necesitarias ir a MercadoPago y generar un nuevo boton de compra por cada transaccion, un proceso muy dispendioso. 
 Con este proyecto solo compartes el link directamente y puedes acomodar el total de la compra facilmente. 
 
-El boton de pago de MercadoPAgo esta pensado para que combres Un producto determinado, este proyecto te permite cobrar totales.
+El boton de pago de MercadoPAgo esta pensado para que compres un producto determinado, este proyecto te permite cobrar totales.
 
 
 ## Como usarlo
 
 ### Paso 1: Crear cuentas
 
-Esta tal vez sea la parte mas dispendiosa. Crear las 3 cuentas que necesitas:
+Lo primero que debes hacer es crear 3 cuentas que necesitas:
 1. **[Mercado Pago](https://www.mercadopago.com.co/):** Mercado pago es el encargado de procesar los pagos, genera los links para tus clientes y hace todo el proceso facil y seguro. Ten en cuenta que Mercado Pago va a cobrar un porcentaje por transacción. Al escribir esta guia es del 3,29% + $ 800 por transacción.
 3. **[Github](https://www.netlify.com/):** Este es simplemente un requerimiento de Netlify para poder usarlo.
-2. **[Netlify](https://www.netlify.com/):** Este se encarga de "hostear" el sitio. Es dicir es la manera ne que podemos poner el sitio al aire o publico. Usa tu nueva cuenta de Github para abrir la cuenta de Netlify
+2. **[Netlify](https://www.netlify.com/):** Este se encarga de "hostear" el sitio. Es dicir es la manera en que podemos poner el sitio al aire o público. Usa tu nueva cuenta de Github para abrir la cuenta de Netlify
 
 
 ### Paso 2: Generar Access_token de Mercado Pago
-PAra este punto ya debes tener tu cuenta de mercado pago. Ahora debes ir a este link:
+Para este punto ya debes tener tu cuenta de mercado pago. Ahora debes ir a este link:
 
 [Visita este link para obtener tus credenciales](https://www.mercadopago.com/mco/account/credentials)
 
@@ -28,11 +28,11 @@ Y deberias ver algo como esto. En ocaciones las credenciales no se muestran asi 
 
 ![Crendeciales MercadoPago](https://i.imgur.com/IWyCwbX.png)
 
-### Paso 3: Crear el sitio Web
+### Paso 3: Crear el link de pagos
 
 👇👇👇Dale click a el boton de abajo 👇👇👇
 
-[![Deply to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/juanpasolano/mercadopago-payme)\\
+[![Deply to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/juanpasolano/mercadopago-payme)
 
 Y luego deberias ver algo como esto:
 
