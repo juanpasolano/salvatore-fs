@@ -15,7 +15,7 @@ if (process.env.IS_SANDBOX) {
 mercadopago.configure(config);
 
 exports.handler = async (event, context) => {
-  const backUrl = `${event.host || "localhost:8888"}/payment-response`;
+  const backUrl = `${"https://salvatore-fs.netlify.com" || "localhost:8888"}/payment-response`;
   const amount = Number(event.queryStringParameters.amount);
   const name = event.queryStringParameters.name;
   const phone = event.queryStringParameters.phone;
