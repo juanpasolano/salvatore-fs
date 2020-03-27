@@ -3,6 +3,11 @@ command = "npm run build"
 publish = "./build"
 functions = "./functions"
 
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
 [template.environment]
 MERCADO_TOKEN = "Access Token de MercadoPago"
 REACT_APP_NAME = "El nombre de tu negocio"
